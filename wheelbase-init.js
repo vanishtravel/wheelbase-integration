@@ -1,8 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
-  const wheelbase = new Wheelbase({
-    domain: "https://www.vanishtravel.com",
-    apiKey: " dev_key", // Replace "your-api-key" with your actual API key
-  });
+document.addEventListener('DOMContentLoaded', function() {
+  new Wheelbase({ accountId: 1969389 });
+});
+
 
   wheelbase.addWidget(wheelbase.widgets.DateRange, "availability-calendar-container", {
     rentalId: 221183,
